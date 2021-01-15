@@ -9,12 +9,12 @@
     <parent>
         <artifactId>dutils</artifactId>
         <groupId>com.wobangkj</groupId>
-        <version>5.3.1</version>
+        <version>5.3.2</version>
     </parent>
 
     <artifactId>dutils-base</artifactId>
     <name>dutils-base</name>
-    <url>http://www.wobangkj.com</url>
+    <url>https://github.com/cliod/wb-dutils</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

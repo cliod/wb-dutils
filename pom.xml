@@ -5,7 +5,7 @@
 
     <groupId>com.wobangkj</groupId>
     <artifactId>dutils</artifactId>
-    <version>5.3.1</version>
+    <version>5.3.2</version>
 
     <packaging>pom</packaging>
 
@@ -25,11 +25,10 @@
         <module>dutils-security</module>
         <module>dutils-sms</module>
         <module>dutils-storage</module>
-        <module>dutils-spring-boot-starters</module>
     </modules>
 
     <name>dutils</name>
-    <url>https://blog.wobangkj.com</url>
+    <url>https://github.com/cliod/wb-dutils</url>
 
     <licenses>
         <license>
