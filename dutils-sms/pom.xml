@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.wobangkj</groupId>
+        <artifactId>dutils</artifactId>
+        <version>5.3.1</version>
+    </parent>
+
+    <artifactId>dutils-sms</artifactId>
+    <name>dutils-sms</name>
+    <url>http://www.wobangkj.com</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wobangkj</groupId>
+            <artifactId>dutils-base</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <!--核心sdk，ali-api请求-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>[4.5.6,)</version>
+        </dependency>
+        <!--短信sdk-->
+        <!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-dysmsapi -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+            <version>[2.1.0,)</version>
+        </dependency>
+
+        <!-- go to https://search.maven.org/search?q=tencentcloud-sdk-java and get the latest version. -->
+        <!-- 请到https://search.maven.org/search?q=tencentcloud-sdk-java查询最新版本 -->
+        <dependency>
+            <groupId>com.tencentcloudapi</groupId>
+            <artifactId>tencentcloud-sdk-java</artifactId>
+            <version>[3.1.147,)</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>javax.mail-api</artifactId>
+            <version>1.6.2</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+</project>
